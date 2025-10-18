@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citrus Craft</title>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fashion Page Stylesheet -->
+    <link rel="stylesheet" href="fashion.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <p>🎉 Free Shipping on Orders Over ₹4,000!</p>
+                    <div class="top-links">
+                        <a href="#"><i class="fas fa-phone"></i> Contact</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> Track Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="index.html"><h1>Citrus<span>Craft</span></h1></a>
+                    </div>
+                    
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for leather products...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    
+                    <div class="nav-icons">
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-user"></i>
+                            <span>Account</span>
+                        </a>
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-heart"></i>
+                            <span>Wishlist</span>
+                            <span class="badge">3</span>
+                        </a>
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>Cart</span>
+                            <span class="badge">5</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="#">Electronics</a>
+                    <a href="fashion.html" class="active">Fashion</a>
+                    <a href="#">Home & Living</a>
+                    <a href="#">Beauty</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Sale 🔥</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Fashion Hero Section -->
+    <section class="hero fashion-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">Premium Collection</span>
+                    <h1 class="hero-title">Handcrafted Goods</h1>
+                    <p class="hero-subtitle">Discover our exclusive range of genuine products. Crafted with precision, designed for elegance.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Shop Collection</button>
+                        <button class="btn btn-secondary">View Catalog</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-placeholder leather-hero-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <h3>Filter by Category:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="bags">Bags</button>
+                    <button class="filter-btn" data-category="wallets">Wallets & Holders</button>
+                    <button class="filter-btn" data-category="jackets">Jackets</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leather Products Section -->
+    <section class="products leather-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Orange Peel Collection</h2>
+                <p class="section-subtitle">100% Genuine Product | Handcrafted | Premium Quality</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 - Leather Handbag -->
+                <div class="product-card">
+                    <div class="product-badge new">Trending</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&h=800&fit=crop" alt="Leather Handbag">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.6)</span>
+                        </div>
+                        <h3 class="product-title">Orange Peel Handbag</h3>
+                        <p class="product-description">Elegant full-grain leather handbag with multiple compartments</p>
+                        <div class="product-price">
+                            <span class="price-current">₹500</span>
+                            <span class="price-original">₹700</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 - Leather Keychain -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1675582090584-4ae9400f7326?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Leather Keychain">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3 class="product-title">Handcrafted Keychain</h3>
+                        <p class="product-description">Durable leather keychain with metal ring holder</p>
+                        <div class="product-price">
+                            <span class="price-current">₹299</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 - School Bag -->
+                <div class="product-card">
+                    <div class="product-badge sale">-20%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1622560257067-108402fcedc0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=388" alt="Leather School Bag">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <h3 class="product-title">School Backpack</h3>
+                        <p class="product-description">Spacious leather backpack with laptop compartment</p>
+                        <div class="product-price">
+                            <span class="price-current">₹800</span>
+                            <span class="price-original">₹1,000</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 4 - Leather Jacket -->
+                <div class="product-card">
+                    <div class="product-badge new">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&h=800&fit=crop" alt="Leather Jacket">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <h3 class="product-title">Classic Jacket</h3>
+                        <p class="product-description">Premium quality leather jacket with inner lining</p>
+                        <div class="product-price">
+                            <span class="price-current">₹2,000</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 5 - Leather Wallet -->
+                <div class="product-card">
+                    <div class="product-badge sale">-15%</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=800&h=800&fit=crop" alt="Leather Wallet">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <h3 class="product-title">Bi-Fold Wallet</h3>
+                        <p class="product-description">Slim genuine leather wallet with RFID protection</p>
+                        <div class="product-price">
+                            <span class="price-current">₹849</span>
+                            <span class="price-original">₹999</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 6 - Card Holder -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1601592996763-f05c9c80a7f1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=580" alt="Leather Card Holder">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.6)</span>
+                        </div>
+                        <h3 class="product-title">Card Holder</h3>
+                        <p class="product-description">Minimalist card holder with 6 card slots</p>
+                        <div class="product-price">
+                            <span class="price-current">₹599</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 7 - Leather Belt -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1664286074176-5206ee5dc878?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Leather Belt">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.2)</span>
+                        </div>
+                        <h3 class="product-title">Orange Peel Belt</h3>
+                        <p class="product-description">Reversible leather belt with metal buckle</p>
+                        <div class="product-price">
+                            <span class="price-current">₹399</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 8 - Watch Strap -->
+                <div class="product-card">
+                    <div class="product-badge new">New</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1651735060501-5c48b522b228?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870" alt="Leather Watch Strap">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <h3 class="product-title">Watch Strap</h3>
+                        <p class="product-description">Premium leather watch band - universal fit</p>
+                        <div class="product-price">
+                            <span class="price-current">₹499</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 9 - Laptop Bag -->
+                <div class="product-card">
+                    <div class="product-badge sale">-25%</div>
+                    <div class="product-image">
+                        <img src="https://plus.unsplash.com/premium_photo-1664392214882-7cecd0a67ccd?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=736 " alt="Leather Laptop Bag">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.5)</span>
+                        </div>
+                        <h3 class="product-title">Professional Laptop Bag</h3>
+                        <p class="product-description">15.6" leather laptop bag with shoulder strap</p>
+                        <div class="product-price">
+                            <span class="price-current">₹999</span>
+                            <span class="price-original">₹1,100</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 10 - Passport Holder -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1612023395494-1c4050b68647?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=580" alt="Leather Passport Holder">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <h3 class="product-title">Passport Holder</h3>
+                        <p class="product-description">Travel passport cover with card slots</p>
+                        <div class="product-price">
+                            <span class="price-current">₹499</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 11 - Messenger Bag -->
+                <div class="product-card">
+                    <div class="product-badge new">Trending</div>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1710170622381-9e51263feb67?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387" alt="Leather Messenger Bag">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <h3 class="product-title">Vintage Messenger Bag</h3>
+                        <p class="product-description">Classic leather messenger with adjustable strap</p>
+                        <div class="product-price">
+                            <span class="price-current">₹1,399</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 12 - Gloves -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1596894573125-e2c7ecdebe13?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=387" alt="Leather Gloves">
+                        <div class="product-overlay">
+                            <button class="overlay-btn"><i class="fas fa-heart"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-eye"></i></button>
+                            <button class="overlay-btn"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(4.3)</span>
+                        </div>
+                        <h3 class="product-title">Winter Gloves</h3>
+                        <p class="product-description">Warm leather gloves with fleece lining</p>
+                        <div class="product-price">
+                            <span class="price-current">₹799</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Our Leather Section -->
+    <section class="why-choose">
+        <div class="container">
+            <h2 class="section-title">Why Choose Our Orange Peel Products?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>100% Genuine</h3>
+                    <p>All products are made from authentic, high-quality leather</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hands"></i>
+                    </div>
+                    <h3>Handcrafted Quality</h3>
+                    <p>Each piece is carefully crafted by skilled artisans</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>2 Year Warranty</h3>
+                    <p>All leather products come with comprehensive warranty</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Free Shipping</h3>
+                    <p>Free delivery on all orders above ₹4,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Get exclusive deals on leather products and fashion updates</p>
+                </div>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Shop<span>Vibe</span></h3>
+                    <p>Your one-stop destination for premium leather goods. Quality products, amazing prices!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Track Order</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra, India</li>
+                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-envelope"></i> support@shopvibe.in</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ShopVibe. All rights reserved.</p>
+                <div class="payment-methods">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-google-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
